@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+ background-color:white;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+ font-family:'Hanken Grotesk', sans-serif;;
+}
+
+.flex-contener{
+    box-shadow: 10px 10px 10px hsl(221, 100%, 96%);
+    border-radius: 1rem;
+    height: 26rem;
+    width: 40rem;
+   
+    
+}
+
+.text-left{
+    background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 1rem;
+    height: 26rem;
+    width: 20rem;
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+}
+
+.text-left>h1{
+    font-size: 20px;
+    color: hsl(241, 100%, 89%);
+}
+
+.text-left>h2{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.text-left>p{
+    transform: translateY(-10px);
+    padding: 10px;
+    color:hsl(241, 100%, 89%);
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+#circle{
+    background:linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    text-align: center;
+    height: 180px;
+    width: 180px;
+    transform: translate(35px,20px);
+    border-radius: 50%;
+    color: #fff;
+    padding: 50px;
+}
+#circle>h2{
+   font-size: 50px;
+}
+
+#circle>p{
+    color: hsl(241, 100%, 89%);
+    opacity: 0.5;
+    font-size: 1rem;
+    font-weight: 500;
+ }
+ 
+ .text-right{
+    transform: translate(360px,-380px);
+    color: hsl(224, 30%, 27%); 
+    
+ }
+
+ .text-right>h1{
+    font-size: 20px;
+    margin-bottom: 25px ;
+ }
+
+.Reaction{
+background-color: hsl(0, 100%, 95%);
+height: 45px;
+width:250px;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 10px;
+}
+
+ .Reaction>h2{
+    font-size: 20px;
+    color: hsl(0, 100%, 67%);
+    padding-right: 50px;
+ }
+
+ .Memory{
+    background-color: hsl(37, 78%, 95%);
+    height: 45px;
+    width:250px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    }
+ .Memory>h2{
+    font-size: 20px;
+    color: hsl(39, 100%, 56%);
+    padding-right: 50px;
+ }
+
+.Verbal{
+    background-color: hsl(166, 100%, 95%);
+    height: 45px;
+    width:250px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    }
+
+ .Verbal>h2{
+    font-size: 20px;
+    color: hsl(166, 100%, 37%);
+    padding-right: 68px;
+ }
+
+ .Visual{
+    background-color: hsl(235, 85%, 95%);
+    height: 45px;
+    width:250px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    }
+
+ .Visual>h2{
+    font-size: 20px;
+    color: hsl(234, 85%, 45%);
+    padding-right: 68px;
+ }
+
+
+
+ .bottom{
+    background: hsl(224, 30%, 27%);
+    color: #fff;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .bottom:hover{
+    background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+ 
+
+
+
+
